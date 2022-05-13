@@ -1,0 +1,640 @@
+/* @media screen and (min-width: 500px) {
+  .header {
+    background: yellow;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    background: blue;
+  }
+}
+
+@media screen and (min-width: 1920px) { */
+a {
+  color: #fff;
+}
+
+.brand-agency a {
+  text-decoration: none;
+  /* color: #fff; */
+}
+
+.header {
+  height: 80px;
+  width: 100%;
+  margin: auto;
+  background-size: 1200px, 200px;
+  margin-bottom: 20px;
+  float: left;
+}
+
+.icon {
+  height: 40px;
+  width: 40px;
+  background-image: url("images/book-logo.png");
+  float: left;
+  background-size: 40px;
+  margin-top: 30px;
+  margin-left: 20%;
+}
+
+.menu-drop {
+  height: 40px;
+  width: 40px;
+  background-color: black;
+  float: right;
+  margin-top: 30px;
+  margin-right: 20%;
+}
+
+.content {
+  height: 1080px;
+  width: 100%;
+  background-image: url("images/beautiful-arrangement-different-books.jpg");
+  background-size: 100% 1080px;
+  float: left;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.title {
+  width: 40%;
+  font-size: 80px;
+  color: rgb(98, 236, 193);
+  margin: auto;
+  margin-top: 200px;
+  text-align: center;
+}
+
+.writing-content {
+  width: 50%;
+  font-size: 40px;
+  margin: auto;
+  margin-top: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+.linked-writing {
+  width: 20%;
+  font-size: 30px;
+  margin: auto;
+  margin-top: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+.box {
+  width: 30%;
+  margin: auto;
+  margin-top: 400px;
+}
+
+.box-one {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  font-size: 30px;
+  float: left;
+  background-color: aquamarine;
+  border-radius: 25px;
+  margin-top: 5px;
+  padding: 20px;
+  color: #fff;
+}
+
+.box-two {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  font-size: 30px;
+  float: right;
+  border-radius: 25px;
+  padding: 10px;
+  border: 10px solid aquamarine;
+  border-radius: 25px;
+  color: #fff;
+}
+
+.box-one:hover {
+  background: #fff;
+  color: blue;
+}
+
+.box-two:hover {
+  background: #fff;
+  color: blue;
+  border: 10px solid #fff;
+}
+
+.brand {
+  height: 400px;
+  width: 100%;
+  float: left;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.inner-brand {
+  width: 50%;
+  height: 400px;
+  margin: auto;
+  float: left;
+}
+
+.brand-writing {
+  height: 400px;
+  width: 60%;
+  float: right;
+}
+
+.brand-agency {
+  height: 40px;
+  width: 40%;
+  font-size: 20px;
+  background-color: darkblue;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  margin-left: 20%;
+}
+
+.brand-design {
+  height: 100px;
+  width: 80%;
+  float: left;
+  font-size: 50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: darkblue;
+  margin-top: 20px;
+  margin-left: 100px;
+  float: right;
+}
+
+.brand-article {
+  height: 100px;
+  width: 60%;
+  float: left;
+  font-size: 20px;
+  color: grey;
+  margin-top: 20px;
+  margin-left: 20%;
+}
+
+.image-man {
+  width: 30%;
+  height: 400px;
+  background-image: url("images/bbb.png");
+  float: left;
+  background-size: 400px;
+  background-repeat: no-repeat;
+  margin-left: 150px;
+}
+
+.brand-product {
+  width: 100%;
+  height: 800px;
+  float: left;
+  background-color: aquamarine;
+  margin-top: 80px;
+}
+
+.brand-title {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  margin-top: 60px;
+  font-size: 60px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: slateblue;
+}
+
+.brand-list {
+  width: 60%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.brand-list-1 {
+  width: 40%;
+  float: left;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 100px;
+}
+
+.brand-list-2 {
+  width: 40%;
+  float: right;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 100px;
+}
+
+.brand-features {
+  width: 100%;
+  height: 800px;
+  float: left;
+  background-color: rgb(59, 59, 211);
+}
+
+.features-title {
+  width: 40%;
+  font-size: 40px;
+  margin: auto;
+  text-align: center;
+  margin-top: 60px;
+  color: #fff;
+}
+
+.features-description {
+  width: 40%;
+  font-size: 50px;
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
+  color: #fff;
+}
+
+.cards {
+  width: 65%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.card-box {
+  width: 25%;
+  margin-left: 3%;
+  background-color: #fff;
+  border-radius: 30px;
+  padding-bottom: 40px;
+  float: left;
+}
+
+.card-box-image {
+  width: 200px;
+  height: 200px;
+  background-image: url("images/communication.jpg");
+  background-size: 200px;
+  background-repeat: no-repeat;
+  margin-left: 20%;
+}
+
+.card-box-title {
+  width: 100%;
+  color: blue;
+  font-size: 30px;
+  margin: auto;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.card-box-description {
+  width: 100%;
+  font-size: 20px;
+  margin: auto;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.card-box-button {
+  width: 20%;
+  background-color: rgb(59, 59, 211);
+  margin: auto;
+  margin-top: 30px;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 0px 10px 0px 10px;
+}
+
+.mention-freepik {
+  width: 20%;
+  margin: auto;
+  color: #fff;
+  text-align: center;
+  margin-top: 580px;
+  font-size: 20px;
+}
+
+.marketing {
+  width: 100%;
+  margin: auto;
+  float: left;
+  background-color: aquamarine;
+}
+
+.marketing-bar {
+  width: 40%;
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.marketing-title {
+  width: 100%;
+  margin: auto;
+  float: left;
+  font-size: 60px;
+  color: blue;
+}
+
+.marketing-details {
+  width: 100%;
+  float: left;
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+.create {
+  width: 100%;
+  float: left;
+}
+
+.writing {
+  width: 50%;
+  height: 550px;
+  margin-top: 10%;
+  float: left;
+}
+
+.writing-title {
+  width: 50%;
+  float: left;
+  font-size: 80px;
+  margin-left: 20%;
+  color: blue;
+}
+
+.writing-desc {
+  width: 60%;
+  float: left;
+  font-size: 35px;
+  margin-left: 20%;
+  margin-top: 20px;
+}
+
+.writing-image-link a {
+  color: #000;
+}
+
+.writing-image-link {
+  width: 80%;
+  float: left;
+  font-size: 35px;
+  margin-left: 20%;
+  margin-top: 40px;
+}
+
+.writing-button {
+  margin-left: 23%;
+  margin-top: 80px;
+  float: left;
+  background-color: aquamarine;
+  font-size: 25px;
+  border-radius: 25px;
+  padding: 2%;
+  color: blue;
+}
+
+.writing-button:hover {
+  background-color: blue;
+  color: white
+}
+
+.create-right {
+  width: 50%;
+  float: left;
+}
+
+.create-right-background {
+  margin-top: 80px;
+  height: 750px;
+  background-color: blue;
+}
+
+.create-right-image {
+  border-radius: 25px;
+  margin-top: 5%;
+  margin-left: -10%;
+}
+
+.trends {
+  width: 100%;
+  height: 800px;
+  float: left;
+  background-image: url("images/4144931.jpg");
+  background-size: 100% 1300px;
+  background-position: 0px -250px;
+}
+
+.trends-title {
+  margin: auto;
+  width: 30%;
+  font-size: 50px;
+  margin-top: 20%;
+  text-align: center;
+  color: #fff;
+}
+
+.trends-button {
+  margin: auto;
+  width: 10%;
+  font-size: 25px;
+  margin-top: 20px;
+  text-align: center;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 25px;
+  border: 2px solid aqua;
+}
+
+.trends-button:hover {
+  border: 2px solid #fff;
+}
+
+.trends-misc {
+  margin: auto;
+  width: 35%;
+  margin-top: 11%;
+  color: #fff;
+}
+
+.products {
+  width: 100%;
+  float: left;
+  margin-top: 60px;
+}
+
+.products-title {
+  width: 50%;
+  float: left;
+  font-size: 50px;
+  color: darkblue;
+  margin-left: 12%;
+}
+
+.products-desc {
+  width: 100%;
+  float: left;
+  font-size: 25px;
+  margin-left: 12%;
+  color: gray;
+}
+
+.products-left {
+  margin-top: 40px;
+  width: 50%;
+  float: left;
+}
+
+.products-left-image {
+  margin-left: 24%;
+  border-radius: 25px;
+}
+
+.products-right {
+  float: left;
+  margin: auto;
+}
+
+.products-right-block {
+  width: 50%;
+  font-size: 20px;
+  float: left;
+  margin-top: 2%;
+  margin-bottom: 10%;
+}
+
+.products-list {
+  list-style-type: none;
+}
+
+.cross {
+  background: url("images/cross-icon.png") no-repeat left top;
+  background-size: 20px 20px;
+  height: 34px;
+  padding-left: 26px;
+}
+
+.about-us {
+  width: 100%;
+  height: 800px;
+  float: left;
+  background: aquamarine;
+  padding-bottom: 100px;
+}
+
+.about-left {
+  width: 50%;
+  float: left;
+}
+
+.about-img {
+  margin-top: 10%;
+  float: right;
+  border-radius: 25px;
+}
+
+.about-right {
+  width: 45%;
+  float: left;
+  margin-left: 5%;
+}
+
+.about-title {
+  width: 100%;
+  font-size: 50px;
+  margin-top: 11%;
+  color: darkblue;
+  float: left;
+}
+
+.about-headline {
+  width: 100%;
+  font-size: 20px;
+  margin-top: 20px;
+  float: left;
+}
+
+.about-desc {
+  width: 60%;
+  font-size: 18px;
+  margin-top: 20px;
+  float: left;
+}
+
+.about-link {
+  width: 50%;
+  font-size: 18px;
+  margin-top: 15%;
+  float: left;
+}
+
+.about-link a {
+  text-decoration: none;
+  color: #000;
+}
+
+.about-cards {
+  padding-top: 40px;
+  width: 70%;
+  float: left;
+  margin-left: 20%;
+}
+
+.about-card {
+  width: 20%;
+  background: darkblue;
+  float: left;
+  margin-right: 3%;
+  border-radius: 25px;
+  padding: 30px;
+}
+
+.about-card-title {
+  width: 100%;
+  font-size: 30px;
+  color: #fff;
+  margin-left: 40px;
+  float: left;
+}
+
+.about-card-info {
+  width: 60%;
+  margin-top: 5%;
+  color: #fff;
+  float: left;
+}
+
+.footer {
+  width: 100%;
+  background-color: #333333;
+  float: left;
+}
+
+.footer-title {
+  width: 23%;
+  font-size: 15px;
+  margin: auto;
+  color: #fff;
+  text-align: center;
+  float: left;
+  padding-top: 5%;
+  padding-left: 38%;
+}
+
+.footer-template {
+  width: 100%;
+  font-size: 15px;
+  margin: auto;
+  text-align: center;
+  float: left;
+  padding-top: 5%;
+  color: #fff;
+  padding-bottom: 50px;
+}
